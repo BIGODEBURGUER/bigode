@@ -35,7 +35,7 @@ function finalizeOrder() {
         return;
     }
 
-    let message = "🛒 *Pedido Red Burguer*:\n";
+    let message = "🛒 *Pedido Bigode Burguer*:\n";
     cart.forEach((product) => {
         message += `${product.item} - R$ ${product.price.toFixed(2)}\n`;
     });
