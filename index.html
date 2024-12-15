@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>BIGODE BURGUER</title>
+</head>
+<body>
+    <!--CABEÇALHO-->
+    <header>
+        <div class="logo">
+            <img src="IMG_8817.PNG" alt="Logo Red Burguer">
+            <h1>BIGODE BURGUER</h1>
+            <p>DELIVERY</p>
+            <p>AV. 1, SAIRÉ-PE, 55695-000</p>
+            <span class="hours">Ter à Dom - 18:00 às 22:00</span>
+        </div>
+    </header>
+    <!--CARDS-->
+    <section class="menu">
+        <h2>Conheça nosso menu</h2>
+        <div class="items">
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Burger">
+                <div class="info">
+                    <h3>Cheese Burger</h3>
+                    <p>Pão levinho, burger 160g, queijo prato e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Burger', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="burguer.PNG" alt="Cheese Bacon">
+                <div class="info">
+                    <h3>Cheese Bacon</h3>
+                    <p>Pão levinho, burger 160g, queijo prato, bacon e maionese.</p>
+                    <span>R$ 35,00</span>
+                    <button onclick="addToCart('Cheese Bacon', 35)">Adicionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CARRINHO-->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <h2>Seu carrinho</h2>
+            <div id="cart-items"></div>
+            <input type="text" id="address" placeholder="Digite seu endereço completo">
+            <button id="finalizeOrder" onclick="finalizeOrder()">Finalizar pedido</button>
+            <button onclick="closeCart()">Fechar</button>
+        </div>
+    </div>
+<!--BOTÃO CARRINHO-->
+    <footer>
+        <button onclick="openCart()">🛒 Veja seu carrinho</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
